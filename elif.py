@@ -1,5 +1,6 @@
 print("welcome to AAA school result protel")
 name=input("enter the student name :")
+reg_num=input("enter your register number")
 tamil=int(input("enter your tamil mark:"))
 english=int(input("enter your english mark:"))
 maths=int(input("enter your maths mark:"))
