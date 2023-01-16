@@ -7,5 +7,5 @@ while True:
     else:
         break
 print(para)
-output='\n'.join(para)
-print(output)
+out='\n'.join(para)
+print(out)
