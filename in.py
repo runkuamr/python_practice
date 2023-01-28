@@ -1,0 +1,5 @@
+a, b, c = input("Enter three values: ").split()  
+print("Enter Your First Name: ", a)  
+print("Enter Your Last Name: ", b)  
+print("Enter Your Class: ", c)  
+print() 
