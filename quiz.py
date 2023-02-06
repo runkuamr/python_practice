@@ -1,67 +1,67 @@
-print("Wellcome to quiz game !!")
+print("Wellcome to ABC Technologies quiz ")
 print('NOTE: if your spelling is incorrect then it is considered as wrong answer')
 score = 0
 question_no = 0
 playing = input('Do you want to play ? ').lower()
 if playing == 'yes':
     question_no += 1
-    ques = input(f'\n{question_no}. what does CPU stand for? ').lower()
-    if ques == 'central processing unit':
+    ques = input(f'\n{question_no}. one plus one ? ').lower()
+    if ques == 'two':
         score +=1
         print('correct! you got 1 point')
         
     else:
         print('Incorrect!')
-        print(f'current answer is --> central processing unit')
+        print(f'current answer is --> two')
 
 # ------1
     question_no += 1
-    ques = input(f'\n{question_no}. what does GPU stand for? ').lower()
+    ques = input(f'\n{question_no}. who is the prime minister of india? ').lower()
     
-    if ques == 'graphics processing unit':
+    if ques == 'narendra modi':
         score +=1
         print('correct! you got 1 point')
         
     else:
         print('Incorrect!')
-        print(f'current answer is --> graphics processing unit')
+        print(f'current answer is -->narendra modi ')
 
 # -----2
     question_no += 1
-    ques = input(f'\n{question_no}. what does RAM stand for? ').lower()
+    ques = input(f'\n{question_no}. who is cm of tamilnadu? ').lower()
     
-    if ques == 'random access memory':
+    if ques == 'm.k.stalin':
         score +=1
         print('correct! you got 1 point')
         
     else:
         print('Incorrect!')
-        print(f'current answer is --> random access memory')
+        print(f'current answer is --> m.k.stalin')
 
 # -----3
     question_no += 1
-    ques = input(f'\n{question_no}. what does PSU stand for? ').lower()
+    ques = input(f'\n{question_no}. which country host g20 2023? ').lower()
     
-    if ques == 'power supply unit':
+    if ques == 'india':
         score +=1
         print('correct! you got 1 point')
         
     else:
         print('Incorrect!')
-        print(f'current answer is --> power supply unit')
+        print(f'current answer is --> india')
 
 
 # -----4
     question_no += 1
-    ques = input(f'\n{question_no}. what does ROM stand for? ').lower()
+    ques = input(f'\n{question_no}. total number of TN MLA? ').lower()
     
-    if ques == 'read only memory':
+    if ques == '234':
         score +=1
         print('correct! you got 1 point')
         
     else:
         print('Incorrect!')
-        print(f'current answer is --> read only memory')
+        print(f'current answer is --> 234')
 
 
 # ------5 
